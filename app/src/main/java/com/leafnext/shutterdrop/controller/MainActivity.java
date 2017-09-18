@@ -216,6 +216,7 @@ public class MainActivity extends AppCompatActivity implements AsyncResponse {
 
         Toolbar toolbar = findViewById(R.id.my_action_bar_toolbar);
         setSupportActionBar(toolbar);
+        toolbar.bringToFront();
 
 
         new DrawerBuilder().withActivity(this).build();
@@ -282,12 +283,15 @@ public class MainActivity extends AppCompatActivity implements AsyncResponse {
                     }
                 })
                 .build();
+
         if (getSupportActionBar()!=null){
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
         getSupportActionBar().setHomeButtonEnabled(false);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
 
+//        result.getActionBarDrawerToggle().setDrawerIndicatorEnabled(false);
+//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
     }
 

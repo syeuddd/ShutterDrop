@@ -3,9 +3,6 @@ package com.leafnext.shutterdrop.model;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-/**
- * Created by syedehteshamuddin on 2017-09-18.
- */
 
 public class Resource {
 

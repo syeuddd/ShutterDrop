@@ -7,9 +7,6 @@ import android.view.Gravity;
 import android.view.View;
 import android.widget.TextView;
 
-/**
- * Created by syedehteshamuddin on 2017-09-18.
- */
 
  public class Util {
     public static void runSnackBar(String status, View coordinatorLayoutView){

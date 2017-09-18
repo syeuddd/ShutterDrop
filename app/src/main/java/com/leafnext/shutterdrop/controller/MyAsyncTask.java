@@ -14,11 +14,8 @@ import java.io.IOException;
 
 import retrofit2.Response;
 
-/**
- * Created by syedehteshamuddin on 2017-09-18.
- */
 
-public class MyAsyncTask extends AsyncTask<Void,Void,ImageResponse> {
+ class MyAsyncTask extends AsyncTask<Void,Void,ImageResponse> {
 
     private CloudinaryService mCloudinaryService;
 

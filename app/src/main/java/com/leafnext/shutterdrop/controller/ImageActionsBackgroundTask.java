@@ -15,10 +15,6 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-/**
- * Created by syedehteshamuddin on 2017-09-18.
- */
-
 class ImageActionsBackgroundTask extends AsyncTask<Void,Void,String> {
 
     private ImageAction mDelegate = null;

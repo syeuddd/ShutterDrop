@@ -8,9 +8,6 @@ import android.support.v4.view.PagerAdapter;
 import android.util.Log;
 import android.view.ViewGroup;
 
-/**
- * Created by syedehteshamuddin on 2017-09-18.
- */
 
 class ScreenSlidePagerAdapter extends FragmentStatePagerAdapter {
 

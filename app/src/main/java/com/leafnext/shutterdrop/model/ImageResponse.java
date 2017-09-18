@@ -5,9 +5,6 @@ import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
 
-/**
- * Created by syedehteshamuddin on 2017-09-18.
- */
 
 public class ImageResponse {
 

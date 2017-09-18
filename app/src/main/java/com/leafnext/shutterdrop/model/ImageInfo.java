@@ -4,9 +4,6 @@ import android.os.Parcel;
 
 import java.util.ArrayList;
 
-/**
- * Created by syedehteshamuddin on 2017-09-18.
- */
 
 public class ImageInfo implements android.os.Parcelable {
 
@@ -87,7 +84,7 @@ public class ImageInfo implements android.os.Parcelable {
     }
 
 
-    public ImageInfo() {
+    private ImageInfo() {
     }
 
     @Override
@@ -103,7 +100,7 @@ public class ImageInfo implements android.os.Parcelable {
         dest.writeString(this.categoryType);
     }
 
-    public ImageInfo(Parcel in) {
+    private ImageInfo(Parcel in) {
         this.mImageUrls = in.createStringArrayList();
         this.mPublicImageId = in.createStringArrayList();
         this.nextcursor = in.readString();

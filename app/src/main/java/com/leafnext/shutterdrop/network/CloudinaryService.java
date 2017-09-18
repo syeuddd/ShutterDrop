@@ -7,9 +7,6 @@ import retrofit2.http.GET;
 import retrofit2.http.Path;
 import retrofit2.http.Query;
 
-/**
- * Created by syedehteshamuddin on 2017-09-18.
- */
 
 public interface CloudinaryService {
 

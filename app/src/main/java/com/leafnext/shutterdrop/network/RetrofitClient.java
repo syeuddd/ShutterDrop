@@ -27,9 +27,6 @@ import okhttp3.logging.HttpLoggingInterceptor.Level;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-/**
- * Created by syedehteshamuddin on 2017-09-18.
- */
 
 public class RetrofitClient extends AppCompatActivity {
 

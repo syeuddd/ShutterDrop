@@ -36,10 +36,6 @@ import com.leafnext.shutterdrop.R;
 import com.leafnext.shutterdrop.Util;
 
 
-/**
- * Created by syedehteshamuddin on 2017-09-18.
- */
-
 public class ScreenSlidePageFragment extends Fragment implements ImageAction {
 
     private FloatingActionMenu actionFAB;
@@ -56,6 +52,7 @@ public class ScreenSlidePageFragment extends Fragment implements ImageAction {
     private View coordinatorLayoutViewForSnackBar;
     private int mScreenWidth;
     private Bitmap croppedWallpaper;
+    ImageView mImageView;
 
 
     @Nullable
@@ -97,7 +94,9 @@ public class ScreenSlidePageFragment extends Fragment implements ImageAction {
         screenHeight = point.y;
 
 
-        final ImageView mImageView = getView().findViewById(R.id.imageView);
+
+        mImageView = getView().findViewById(R.id.imageView);
+
 
         actionFAB = getView().findViewById(R.id.social_floating_menu);
         save = getView().findViewById(R.id.save);
@@ -248,6 +247,7 @@ public class ScreenSlidePageFragment extends Fragment implements ImageAction {
                 })
                 .into(saveTarget);
         actionFAB.close(true);
+
         Log.i("SaveFilemethod","Save file method has been triggered");
     }
 
